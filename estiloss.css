@@ -1,0 +1,123 @@
+body {
+  font-family: Georgia, serif;
+  font-style: normal;
+  background-color: #c4c4f5;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+@keyframes moverEAlterarCor {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.animar {
+  font-size: 30px;
+  width: 800px;
+  height: 150px;
+  position: relative;
+  animation: moverEAlterarCor 2.5s ease-in;
+  text-align: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.button {
+  display: flex;
+  width: 600px;
+  height: 100px;
+  background-color: #8383cf;
+  border-radius: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-style: normal;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  flex-direction: initial;
+  box-shadow: -8px -1px 14px 12px #8383cf;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+.button:hover {
+  background-color: #6262a1;
+  color: #FFFF;
+  transition: 500ms ease-in-out;
+}
+
+.button-1 {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background-color: #8383cf;
+  border-radius: 3px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin: 50px;
+  padding: 0px;
+}
+
+.button-2 {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  background-color: #8383cf;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  text-transform: uppercase;
+  font-style: normal;
+  font-family: Georgia, serif;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin: 50px;
+  padding: 0px;
+  text-decoration: none;
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 500px 500px;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  align-content: center;
+}
+
+.fotos img {
+  width: 100%;
+  height: auto;
+}
